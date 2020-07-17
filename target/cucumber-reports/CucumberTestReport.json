@@ -1,0 +1,434 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "To verify if application allows to create teacher user",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-registeration;to-verify-if-application-allows-to-create-teacher-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16635192400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the browser and enter the URL",
+            "match": {
+              "location": "elearning_teacher.i_open_the_browser_and_enter_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 422904700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 8,
+                "value": "#\"http://elearningm1.upskills.in/\""
+              }
+            ],
+            "line": 9,
+            "name": "I enter the username and password",
+            "match": {
+              "location": "elearning_teacher.i_enter_the_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5408043000,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#Then I enter the username \"aditi123\" and password \"Aditi@123\""
+              }
+            ],
+            "line": 11,
+            "name": "I click on Login button",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Registeration1"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Creating selenium course for students",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-registeration;creating-selenium-course-for-students",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1481537700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on  \u0027Create a course\u0027 link after login",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Create_a_course_link_after_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265240100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#Then I enter valid credentials in Course name textbox \"Selen191413\""
+              }
+            ],
+            "line": 17,
+            "name": "I enter valid credentials in Course name textbox",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Course_name_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84874300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on Advance Settings Button",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Advance_Settings_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4136597000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select valid credentials from Category list box",
+            "match": {
+              "location": "elearning_teacher.i_select_valid_credentials_from_Category_list_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 209476500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "#Then I enter valid credentials in Course code text box \"se10911413\""
+              }
+            ],
+            "line": 21,
+            "name": "I enter valid credentials in Course code text box",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Course_code_text_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105307700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select valid credentials from Language list box",
+            "match": {
+              "location": "elearning_teacher.i_select_valid_credentials_from_Language_list_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5094148300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Create this course button",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Create_this_course_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@CreatingCourse1"
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Giving the content to selenium course",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-registeration;giving-the-content-to-selenium-course",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1762784600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Add an introduction icon",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Add_an_introduction_icon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10786056400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 28,
+                "value": "#Then I give valid credentials in the textbox \"This is a Selenium Project\""
+              }
+            ],
+            "line": 29,
+            "name": "I give valid credentials in the textbox",
+            "match": {
+              "location": "elearning_teacher.i_give_valid_credentials_in_the_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1941609700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on Save button",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@CourseContent1"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Adding objectives and topics to the selenium course",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-registeration;adding-objectives-and-topics-to-the-selenium-course",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4033395200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on Course Description icon",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Course_Description_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2986590500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on Description icon",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Description_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 845541900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 36,
+                "value": "#Then I enter valid credentials in Title textbox \"Selenium course for beginners\""
+              },
+              {
+                "line": 37,
+                "value": "#And I enter valid credentials in Content textbox \"Selenium course for beginners\""
+              }
+            ],
+            "line": 38,
+            "name": "I enter valid credentials in Title textbox",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Title_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10613811700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter valid credentials in Content textbox",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Content_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2487838300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on save button",
+            "match": {
+              "location": "elearning_teacher.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1381993400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on Objectives icon",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Objectives_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 389909900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter valid credentials in Title textbox",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Title_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10651968700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I enter valid credentials in Content textbox",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Content_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2143089700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on save button",
+            "match": {
+              "location": "elearning_teacher.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1828260600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on Topics icon",
+            "match": {
+              "location": "elearning_teacher.i_click_on_Topics_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 370366900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I enter valid credentials in Title textbox",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Title_textbox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10558539000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter valid credentials in Content textbox",
+            "match": {
+              "location": "elearning_teacher.i_enter_valid_credentials_in_Content_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2109617200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on save button",
+            "match": {
+              "location": "elearning_teacher.i_click_on_save_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@ObjectiveTopics1"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to automate the registeration",
+    "description": "I want to register to the site",
+    "id": "this-feature-is-to-automate-the-registeration",
+    "keyword": "Feature",
+    "uri": "eLearning_teacher.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ELearningteacher"
+      }
+    ]
+  }
+]
