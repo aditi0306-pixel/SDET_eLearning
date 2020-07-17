@@ -8,9 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="feature_files", 
                  glue= "stepdefinitions",
-                 tags="@ELearningteacher",
-                
-          
+        
                  
 format=
 {"pretty",

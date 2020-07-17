@@ -11,10 +11,10 @@ Feature: This feature is to automate the registeration
  @CreatingCourse
     Scenario: Creating Finance course for students
      Given I click on  'Create a course' link after login
-	   Then I enter valid credentials in Course name textbox "Sel11113"
+	   Then I enter valid credentials in Course name textbox "Selenium11113"
 	   Then I click on Advance Settings Button
 	   Then I select valid credentials from Category list box
-	   Then I enter valid credentials in Course code text box "s011113"
+	   Then I enter valid credentials in Course code text box "selenium011113"
 	   Then I select valid credentials from Language list box
 	   Then I click on Create this course button
 	   
